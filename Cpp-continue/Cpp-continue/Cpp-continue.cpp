@@ -6,6 +6,9 @@ using namespace std;
 
 int main()
 {
+
+
+	auto x = 5u;
 	// game censor practice
 	string censor = " yo what the hell?";
 	censor.replace(censor.find("hell"), 4, "^.^!");
@@ -15,8 +18,6 @@ int main()
 	cout << greeting.find_first_of("!") << endl;
 		if (greeting.find_first_of("!") == -1) 
 			cout<< "Not found" << endl;
-
-
 
 
 		return 0;
