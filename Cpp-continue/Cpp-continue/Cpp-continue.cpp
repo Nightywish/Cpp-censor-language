@@ -7,8 +7,6 @@ using namespace std;
 int main()
 {
 
-
-	auto x = 5u;
 	// game censor practice
 	string censor = " yo what the hell?";
 	censor.replace(censor.find("hell"), 4, "^.^!");
